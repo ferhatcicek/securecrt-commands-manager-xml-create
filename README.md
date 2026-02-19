@@ -1,1 +1,2 @@
-# securecrt-commands-manager-xml-create
+# securecrt commands manager e komut listesi eklemek
+https://ferhatcicek.com/securecrt-commands-manager-e-komut-listesi-eklemek/
