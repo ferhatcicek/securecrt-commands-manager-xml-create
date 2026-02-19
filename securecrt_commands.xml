@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VanDyke version="3.0">
+	<key name="Commands">
+		<key name="nokia">
+			<key name="bgp">
+				<key name="__Commands__">
+					<array name="Default">
+						<string>SEND,show router bgp summary,show router bgp summary,,,0,1,show router bgp summary,</string>
+						<string>SEND,show router bgp neighbor,show router bgp neighbor,,,0,1,show router bgp neighbor,</string>
+					</array>
+				</key>
+			</key>
+			<key name="switch">
+				<key name="__Commands__">
+					<array name="Default">
+						<string>SEND,show ethernet-service port 1/3,show ethernet-service port 1/3,,,0,1,show ethernet-service port 1/3,</string>
+					</array>
+				</key>
+			</key>
+		</key>
+		<key name="huawei">
+			<key name="__Commands__">
+				<array name="Default">
+					<string>SEND,display ip interface brief,display ip interface brief,,,0,1,display ip interface brief,</string>
+				</array>
+			</key>
+		</key>
+		<key name="zte">
+			<key name="__Commands__">
+				<array name="Default">
+					<string>SEND,show ip interface brief loopback0,show ip interface brief loopback0,,,0,1,show ip interface brief loopback0,</string>
+				</array>
+			</key>
+		</key>
+	</key>
+</VanDyke>
